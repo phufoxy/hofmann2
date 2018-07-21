@@ -1,0 +1,861 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* header */
+
+/* <img src="img/video-frame.png" alt="Video Card"> */
+
+header {
+  background: url('../assets/img/Background.png') no-repeat;
+  background-size: cover;
+  color: #ccc;
+  height: 768px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+header .logo {
+  float: left;
+  width: 10%;
+  text-align: left;
+}
+
+header .logo h1 {
+  color: #EBCB80;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+header nav {
+  float: left;
+  width: 90%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+header nav li {
+  display: inline-table;
+  padding-left: 20px;
+}
+
+header nav a {
+  color: #ccc;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header nav a:hover {
+  color: #EBCB80;
+}
+
+header .desciption {
+  text-align: center;
+  padding-top: 102px;
+  width: 50%;
+  margin: 0 auto;
+  font-weight: normal;
+  color: beige;
+  font-size: 36px;
+}
+
+header .img {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  background: url('../assets/img/video-frame.png') no-repeat;
+  background-size: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+main {
+  padding: 0;
+  margin: 0;
+}
+
+/* feature */
+
+#feature {
+  background-color: #ffffff;
+  background: url('/assets/img/mac.png') no-repeat;
+  background-size: 40%;
+  background-position: 80% 80%;
+  text-align: center;
+  height: auto;
+  padding: 50px;
+}
+
+#feature h1 {
+  color: #4B4B4B;
+  font-size: 36px;
+  font-weight: normal;
+  font-family: 'roboto';
+}
+
+#feature h2 {
+  color: #4B4B4B;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'roboto';
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-transform: uppercase;
+}
+
+#feature .clo-feature {
+  display: inline-table;
+  width: 30%;
+  float: left;
+}
+
+#feature .clo-feature .box {
+  height: 140px;
+  width: 350px;
+  padding-top: 30px;
+  margin-right: 50px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+#feature .clo-feature .box:hover {
+  box-shadow: 1px 1px 10px 1px rgba(17, 192, 154, 0.5);
+  border-radius: 5px;
+}
+
+#feature .clo-feature .box img {
+  float: left;
+  width: 15%;
+}
+
+#feature .box .description {
+  float: right;
+  width: 85%;
+  text-align: left;
+}
+
+#feature .box .description h1 {
+  color: #4B4B4B;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+#feature .box .description p {
+  color: #4B4B4B;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+/* panel */
+
+#panel {
+  background: url('/assets/img/background\ \(2\).png') no-repeat;
+  background-size: cover;
+  height: auto;
+  text-align: center;
+  padding: 150px;
+  color: #ccc;
+}
+
+#panel h1 {
+  font-size: 36px;
+  padding-bottom: 30px;
+}
+
+#panel p {
+  margin: 0 auto;
+  width: 500px;
+}
+
+#panel .button {
+  background: #EBCB80;
+  border-radius: 20px;
+  border: 0px;
+  width: 200px;
+  height: 40px;
+  margin-top: 30px;
+  color: #4B4B4B;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#panel .button:hover {
+  background: #4B4B4B;
+  color: #ccc;
+}
+
+/* boxes */
+
+.boxes {
+  height: auto;
+  text-align: center;
+  padding: 50px;
+  font-family: 'Roboto';
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.boxes .title {
+  color: #4B4B4B;
+}
+
+.boxes h1 {
+  color: #4B4B4B;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.boxes .box {
+  display: inline-flex;
+  width: 40%;
+  height: auto;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.boxes .box:hover {
+  box-shadow: 1px 1px 10px rgba(138, 20, 79, 0.5);
+}
+
+.boxes .box .image {
+  float: left;
+  width: 20%
+}
+
+.boxes .box .image img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.boxes .box .description {
+  float: right;
+  width: 80%;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.boxes .box .description h1 {
+  color: #4B4B4B;
+  font-size: 20px;
+}
+
+.boxes .box .description h2 {
+  color: #4B4B4B;
+  font-size: 13px;
+}
+
+.boxes .box .description p {
+  color: #4B4B4B;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.boxes .box .description li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.boxes .box .description i {
+  color: #EBCB80;
+  size: 20px;
+  text-align: left;
+}
+
+/* plans */
+
+#plans {
+  text-align: center;
+  padding: 50px;
+  color: #4B4B4B;
+}
+
+#plans h1 {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+#plans .card {
+  display: inline-table;
+  width: 23%;
+  height: 350px;
+  background: #4B4B4B;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  text-align: center;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#plans .card:nth-child(3) {
+  background: #EBCB80;
+}
+
+#plans .card:hover {
+  box-shadow: 2px 2px 10px 2px rgba(55, 4, 172, 0.5);
+}
+
+#plans .card h1 {
+  color: #EBCB80;
+  font-size: 26px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+#plans .card:nth-child(3) h1 {
+  color: #4B4B4B;
+}
+
+#plans .card h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+#plans .card:nth-child(3) h2 {
+  color: #4B4B4B;
+}
+
+#plans .card span {
+  font-size: 16px;
+}
+
+#plans .card .year {
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+#plans .card p {
+  padding: 30px;
+  text-align: center;
+  color: #ccc;
+}
+
+#plans .card:nth-child(3) p {
+  color: #4B4B4B;
+}
+
+#plans .card button {
+  width: 220px;
+  height: 50px;
+  border-radius: 20px;
+  border: 0;
+  background: #EBCB80;
+}
+
+#plans .card:nth-child(3) button {
+  width: 220px;
+  height: 50px;
+  border-radius: 20px;
+  border: 0;
+  background: #4B4B4B;
+}
+
+#plans .card button:hover {
+  background: #fff;
+  color: #EBCB80;
+}
+
+/* portfolio  */
+
+#portfolio {
+  color: #4B4B4B;
+  text-align: center;
+  padding: 20px;
+  /* width: 100%; */
+  /* background: #f00; */
+}
+
+#portfolio h1 {
+  font-weight: normal;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#portfolio .card {
+  display: block;
+  width: 33.3%;
+  height: 300px;
+  background: #f00;
+  float: left;
+  /* margin-top: 30px; */
+}
+
+#portfolio .card img {
+  width: 100%;
+  min-height: 300px;
+  max-height: 300px;
+}
+
+#portfolio .card:nth-child(3) {
+  display: block;
+  width: 66.7%;
+  height: 300px;
+  /* background: #f00; */
+  float: left;
+  /* margin-top: 30px; */
+}
+
+#portfolio .card:nth-child(3) img {
+  width: 100%;
+  min-height: 300px;
+  max-height: 300px;
+}
+
+#portfolio .card:nth-child(4) {
+  display: block;
+  width: 66.7%;
+  height: 300px;
+  background: #f00;
+  float: left;
+  /* margin-top: 30px; */
+}
+
+#portfolio .card:nth-child(4) img {
+  width: 100%;
+  min-height: 300px;
+  max-height: 300px;
+}
+
+#portfolio .card:nth-child(7) {
+  background: url('/assets/img/project-card\ copy.png');
+  display: block;
+  width: 33.3%;
+  height: 300px;
+  float: left;
+  text-align: center;
+  color: #4B4B4B;
+  /* padding: 50px; */
+  /* margin-top: 30px; */
+  text-align: left;
+}
+
+#portfolio .card:nth-child(7) h1 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+#portfolio .card:nth-child(7) h2 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+#portfolio .card:nth-child(7) p {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: normal;
+  font-size: 48px;
+  border-top: 5px solid #4B4B4B;
+  width: 20px;
+}
+
+/* description */
+
+#description {
+  background: url('/assets/img/Background\ \(3\).png') no-repeat;
+  background-size: cover;
+  height: 678px;
+  color: #ccc;
+  text-align: center;
+}
+
+#description .details {
+  position: relative;
+  height: 678px;
+  width: 350px;
+  top: 300px;
+  left: 60%;
+  z-index: auto;
+  text-align: left;
+}
+
+#description .details h1 {
+  font-weight: bold;
+}
+
+#description .details h2 {
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+#description .details p {
+  margin-top: 30px;
+}
+
+/* stays */
+
+#stays {
+  height: 444px;
+  text-align: center;
+  padding: 50px;
+  background: url('../assets/img/iPhoneApp.png') no-repeat;
+  background-position: 10% 100%;
+}
+
+#stays h1 {
+  font-weight: normal;
+  color: #4B4B4B;
+}
+
+#stays .flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+#stays .flex-container .form {
+  width: 70%;
+  height: 444px;
+}
+
+#stays .flex-container .form form {
+  position: relative;
+  padding-left: 250px;
+  padding-top: 100px;
+}
+
+#stays .flex-container .form form input[type="text"], input[type="email"] {
+  border-bottom: 1px solid #4B4B4B;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  background: transparent;
+  height: 35px;
+  width: 150px;
+  margin-top: 30px;
+  color: #4B4B4B;
+}
+
+#stays .flex-container .form form input[type="text"]:nth-child(3) {
+  width: 300px;
+}
+
+#stays .flex-container .form form button {
+  width: 250px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 0;
+  background: #EBCB80;
+  color: #4B4B4B;
+}
+
+#stays .flex-container .form form button:hover {
+  background: #ccc;
+  color: #EBCB80;
+}
+
+#stays .flex-container .description {
+  width: 30%;
+  padding-top: 120px;
+}
+
+#stays .flex-container .description li {
+  list-style-type: none;
+  padding-top: 30px;
+  text-align: left;
+  color: #4B4B4B;
+  font-weight: normal;
+}
+
+/* footer */
+
+footer {
+  height: auto;
+  background: #4B4B4B;
+  font-weight: normal;
+  font-family: 'roboto';
+}
+
+footer .header {
+  display: flex;
+  margin-top: 200px;
+}
+
+footer .header .logo {
+  width: 50%;
+  color: #ccc;
+}
+
+footer .header .logo h1 {
+  font-weight: normal;
+  font-size: 36px;
+  color: #EBCB80;
+}
+
+footer .header .logo p {
+  text-align: left;
+  width: 220px;
+}
+
+footer .header .logo h2 {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+footer .header .description {
+  width: 50%;
+}
+
+footer .header .description nav {}
+
+footer .header .description nav li {
+  display: inline-block;
+  width: 30%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer .header .description nav li a {
+  color: #ccc;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+footer .header .description nav li a:hover {
+  color: #EBCB80;
+}
+
+footer .footer {
+  padding-bottom: 30px;
+  display: flex;
+}
+
+footer .footer form {
+  width: 65%;
+}
+
+footer .footer form h1 {
+  color: #ccc;
+  font-size: 20px;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+footer .footer form input {
+  width: 200px;
+  height: 35px;
+  padding-left: 10px;
+  color: #ccc;
+  border: 1px solid #ccc;
+  background: transparent;
+  border-radius: 3px;
+}
+
+footer .footer .icon {
+  width: 35%;
+}
+
+footer .footer .icon h1 {
+  font-weight: bold;
+  color: #ccc;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+footer .footer .icon li {
+  display: inline;
+  padding: 10px;
+}
+
+footer .footer .icon li i {
+  color: #EBCB80;
+  font-size: 20px;
+}
+
+/* media */
+
+@media screen and (max-width: 768px) {
+  .container {
+      width: 100%;
+      margin: 0 auto;
+      overflow: hidden;
+  }
+  header {
+      height: 300px;
+  }
+  header .logo {
+      float: none;
+      width: 100%;
+      text-align: center;
+  }
+  header nav {
+      width: 100%;
+  }
+  header nav li {
+      padding-top: 20px;
+  }
+  header .desciption, .img {
+      display: none;
+  }
+  #feature {
+      padding: 0px;
+      padding-top: 30px;
+      background: none;
+      text-align: center;
+  }
+  #feature .clo-feature {
+      float: none;
+      width: 100%;
+  }
+  #feature .clo-feature .box {
+      width: 90%;
+      margin-top: 20px;
+      padding: 10px;
+  }
+  #feature .box .description p {
+      padding: 0px;
+  }
+  #panel {
+      padding-right: 20px;
+      padding-left: 20px;
+  }
+  #panel p {
+      margin: 0 auto;
+      width: 100%;
+  }
+  .boxes {
+      padding-right: 10px;
+      padding-left: 10px;
+      padding-top: 30px;
+  }
+  .boxes .box {
+      width: 90%;
+      margin: 0px;
+  }
+  #portfolio {
+      padding-right: 10px;
+      padding-left: 10px;
+  }
+  #portfolio .card {
+      width: 100%;
+  }
+  #portfolio .card:nth-child(3) {
+      width: 100%;
+  }
+  #portfolio .card:nth-child(4) {
+      width: 100%;
+  }
+  #description {
+      text-align: center;
+      padding: 0px;
+  }
+  #description .details {
+      position: relative;
+      height: 678px;
+      width: 350px;
+      top: 300px;
+      left: 0%;
+      z-index: auto;
+      text-align: center;
+      padding-left: 10px;
+  }
+  #stays {
+      background: none;
+      padding: 0px;
+      height: 300px;
+  }
+  #stays .flex-container .form {
+      width: 100%;
+      height: 444px;
+  }
+  #stays .flex-container .form form {
+      position: relative;
+      padding-left: 0px;
+      padding-top: 0px;
+  }
+  #stays .flex-container .from from input {
+      width: 100%;
+  }
+  #stays .flex-container .description {
+      display: none;
+  }
+
+  #plans {
+      padding: 0px;
+  }
+
+  #plans .card {
+      display: inline-table;
+      width: 100%;
+      height: 350px;
+      background: #4B4B4B;
+      text-align: center;
+      border: 0;
+      margin-left: 0px;
+      margin-right: 0px;
+      border-radius: 5px;
+  }
+  footer {
+      height: auto;
+      background: #4B4B4B;
+      font-weight: normal;
+      font-family: 'roboto';
+
+  }
+  footer .header {
+      display: inline-table;
+      margin-top: 20px;
+      text-align: center;
+  }
+
+  footer .header .logo {
+      width: 100%;
+      color: #ccc;
+  }
+
+  footer .header .logo h1 {
+      font-weight: normal;
+      font-size: 36px;
+      color: #EBCB80;
+  }
+
+  footer .header .logo p {
+      text-align: center;
+      width: 100%;
+  }
+
+  footer .header .logo h2 {
+      margin-top: 20px;
+      font-size: 15px;
+      font-weight: normal;
+  }
+
+  footer .header .description {
+      width: 100%;
+  }
+
+  footer .header .description nav li {
+      display: inline-block;
+      width: 30%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  footer .footer {
+      display: flex;
+  }
+
+
+}
